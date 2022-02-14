@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": ""
+  },
+  "text": {
+    "more": "",
+    "intro": "Reddit - r/france\nSemaine 5 (du 30 janvier2017 au 5 février 2017)",
+    "title": "Les Utilisateurs du r/france"
+  },
+  "legend": {
+    "edgeLabel": "Participation à une même conversation",
+    "colorLabel": "Principal type de conversation de l\u0027utilisateur",
+    "nodeLabel": "Utilisateurs"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.1,
+      "minEdgeSize": 0.1,
+      "minNodeSize": 1,
+      "maxNodeSize": 1
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
